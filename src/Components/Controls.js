@@ -44,7 +44,7 @@ const Controls = ({currentSong,toNextTrack,toPrevTrack,currentIndex}) => {
       startTimer();
     }
     const intervalRef =useRef()
-    const isReady =useRef(false)
+    
     
 
 
