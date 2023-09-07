@@ -61,13 +61,7 @@ const Controls = ({currentSong,toNextTrack,toPrevTrack,currentIndex}) => {
         }
       }, [2000]);
     };
-    const Timing =(timestamp) => {
-      let minutes = Math.floor(timestamp / 60);
-    let seconds = timestamp - (minutes * 60);
-      if (seconds < 10) { seconds = '0' + seconds; }
-      timestamp = minutes + ':' + seconds;
-      return timestamp;
-  }
+   
 
 
 
